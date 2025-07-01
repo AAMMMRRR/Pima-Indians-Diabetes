@@ -113,7 +113,7 @@ Key performance metrics on the test set:
 
 The stacking ensemble with Optuna parameters achieved a balanced performance with a test accuracy of 0.7532, recall of 0.69, and ROC AUC of 0.75, making it suitable for clinical applications where minimizing false negatives is critical.
 
-### Limitations
+## Limitations
 - Limited to 8 features, which may restrict predictive power
 - Some class overlap in the dataset
 - Accuracy ceiling around 77% due to dataset characteristics
